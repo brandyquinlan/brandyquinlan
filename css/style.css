@@ -8,9 +8,9 @@
 /* Base Styles */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background: #fff;
-    color: #333;
+    /* color: #333; */
     line-height: 1.7;
 }
 
@@ -52,7 +52,7 @@ img {
 
 header h1 {
     /* color: #e97a5b; */
-    color: #d36e5f;
+    color: #bf8273;
     padding-left: 10px;
 }
 
@@ -92,21 +92,22 @@ header h1 {
 
 #aboutMe {
     padding: 40px 100px;
-    background: #333339;
+    background: #99999d;
     color: #fff;
-    opacity: .8;
     font-size: .9rem;
 }
 
 #aboutMe h1 {
-    color: #bf8273;
+    color: #fff;
+    padding-bottom: 20px;
 }
 
 #aboutRow1 {
-    display: flex;
-    padding: 20px;
+    float: left;
+    /* padding: 20px; */
     justify-content: space-between;
     margin: 0 20px;
+    shape-outside: circle();
 }
 
 #aboutMe img {

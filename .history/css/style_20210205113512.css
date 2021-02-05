@@ -126,7 +126,7 @@ header h1 {
 
 .projects img {
     border: #ccc 1px solid;
-    width: 30vw;
+    width: 40vw;
 }
 
 .projectsGallery {
@@ -139,10 +139,9 @@ header h1 {
     background: #a35a4e;
 }
 
-
-/* .projectsGallery:hover {
+.projectsGallery:hover {
     opacity: .8;
-} */
+}
 
 
 /* Footer */

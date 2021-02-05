@@ -8,9 +8,9 @@
 /* Base Styles */
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #fff;
-    /* color: #333; */
+    color: #333;
     line-height: 1.7;
 }
 
@@ -52,7 +52,7 @@ img {
 
 header h1 {
     /* color: #e97a5b; */
-    color: #bf8273;
+    color: #d36e5f;
     padding-left: 10px;
 }
 
@@ -90,58 +90,35 @@ header h1 {
 
 /* About */
 
+
+/*
 #aboutMe {
     padding: 40px 100px;
-    background: #99999d;
+    background: #333339;
     color: #fff;
+    opacity: .8;
     font-size: .9rem;
+    max-width: 1920px;
 }
 
 #aboutMe h1 {
-    color: #fff;
-    padding-bottom: 20px;
-}
+    color: #bf8273;
+} */
 
-#aboutRow1 {
-    float: left;
-    /* padding: 20px; */
+
+/* #aboutRow1 {
+    display: flex;
+    padding: 20px;
     justify-content: space-between;
     margin: 0 20px;
-    shape-outside: circle();
-}
+} */
 
-#aboutMe img {
+
+/* #aboutMe img {
     border-radius: 50%;
     margin-right: 50px;
     width: 150px;
     height: 150px;
-}
-
-
-/* Projects */
-
-#projectsGallery {
-    display: inline-block;
-}
-
-.projects img {
-    border: #ccc 1px solid;
-    width: 30vw;
-}
-
-.projectsGallery {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.projectsGallery p {
-    background: #a35a4e;
-}
-
-
-/* .projectsGallery:hover {
-    opacity: .8;
 } */
 
 

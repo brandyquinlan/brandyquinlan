@@ -120,29 +120,20 @@ header h1 {
 
 /* Projects */
 
+
+/*
 #projectsGallery {
     display: inline-block;
+} */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .projects img {
-    border: #ccc 1px solid;
-    width: 30vw;
+    width: 40vw;
 }
-
-.projectsGallery {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.projectsGallery p {
-    background: #a35a4e;
-}
-
-
-/* .projectsGallery:hover {
-    opacity: .8;
-} */
 
 
 /* Footer */

@@ -1,25 +1,21 @@
 # Portfolio_Update
+## Unit 08 Project 1 Homework: Professional Materials
 
-For this project I used the Bootstrap CSS Framework to create a mobile responsive portfolio, which included an About page, Portfolio Page and Contact Page. All three pages have a navigation bar, a reponsive layout and responsive images and appear as directed on the preview images provided, in accordance with the screen sizes of 992, 768 and 400. Below are the corresponding screenshots from my pages.
+For this homework assignment, I updated my portfolio page and other materials to build toward being employer-competitive.
 
-## Minimum Requirements - All Met
+## Requirements - All Met
 
-* Functional, deployed application
-* GitHub repository with README describing the project
-* Navbar must be consistent on each page.
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-* All links must work.
-* Must use semantic html.
-* Each page must have valid and correct HTML. (use a validation service)
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
-* Must properly utilize Bootstrap components and grid system.
-* Included a sticky footer to each page.
+* Update Portfolio
+* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
+* Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+* Submit an updated resume
+* Submit an updated LinkedIn profile
 
 ## URL and Repo Locations
 
-The url for the site is: https://brandyquinlan.github.io/HW02_Bootstrap/
-The repo is located here: https://github.com/brandyquinlan/HW02_Bootstrap
+The url for the site is: https://brandyquinlan.github.io/brandyquinlan/
+The repo is located here: https://github.com/brandyquinlan/brandyquinlan
 
-## Screenshots of Pages
+## Screenshots of Portfolio
 
-![Screenshot](992-768-400-About.jpg) ![Screenshot](992-768-400-Portfolio.jpg) ![Screenshot](992-768-400-Contact.jpg)
+![Screenshot](img/screenshot.png)

@@ -73,7 +73,7 @@
         /* About */
         
         #about {
-            border: 30px #99999d solid;
+            border: 30px #5b8f9c solid;
             padding: 30px 80px;
             background: #f4f4f4;
             color: #333;
@@ -183,15 +183,26 @@
         } */
         
         #contact {
+            display: flex;
+            justify-content: space space-between;
             margin-top: 40px;
-            padding: 20px 200px;
+            padding: 20px 150px;
             background: #99999d;
             color: #fff;
             font-size: .9rem;
         }
         
+        #contact .column2 {
+            width: 700px;
+            align-items: center;
+            margin-left: 100px;
+            padding: 60px;
+            font-size: 1rem;
+            border: 40px solid #67a5b4;
+        }
+        
         #contact form {
-            max-width: 400px;
+            width: 400px;
             outline-color: #e6978a;
         }
         

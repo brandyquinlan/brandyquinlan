@@ -72,15 +72,17 @@
         }
         /* About */
         
-        #aboutMe {
+        #about {
             padding: 40px 80px;
-            background: #99999d;
-            color: #fff;
+            background: #f4f4f4;
+            color: #333;
+            /* background: #99999d;
+            color: #fff; */
             font-size: .9rem;
         }
         
-        #aboutMe h1 {
-            color: #fff;
+        #about h1 {
+            color: #e6978a;
             padding-bottom: 20px;
         }
         
@@ -92,18 +94,66 @@
             shape-outside: circle();
         }
         
-        #aboutMe img {
+        #about img {
             border-radius: 50%;
             margin-right: 50px;
             width: 150px;
             height: 150px;
         }
-        /* Projects */
+        /* Knowledge */
         
-        .projects img {
-            border: #ccc 1px solid;
-            width: 25vw;
+        #knowledge h1 {
+            color: #e6978a;
+            /* font-weight: bolder; */
+            padding: 20px 0 5px 80px;
+            background: #fff;
+            position: relative;
+            top: 10px;
         }
+        
+        .blocks {
+            position: relative;
+            top: 20px;
+            height: 225px;
+            font-size: .9rem;
+            background: #f4f4f4;
+        }
+        
+        .box {
+            float: left;
+            width: 33.3%;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .box i {
+            margin-bottom: 10px;
+        }
+        
+        .blocks #box2 {
+            background: #e6978a;
+            color: #fff;
+            height: 225px;
+            /* position: relative;
+            top: -10px; */
+        }
+        
+        .blocks p {
+            margin-bottom: 25px;
+        }
+        
+        .blocks .btn {
+            background: #333;
+            color: #fff;
+            padding: 5px 15px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        
+        .blocks .btn:hover {
+            opacity: .8;
+        }
+        /* Projects */
         
         .projectsGallery {
             padding: 10px 10px 20px 40px;
@@ -112,22 +162,28 @@
             align-items: center;
         }
         
+        .projects img {
+            border: #ccc 1px solid;
+            width: 25vw;
+        }
+        
         .projectsGallery p {
             background: #e6978a;
         }
         
         .projects h1 {
+            justify-content: center;
+            color: #e6978a;
             padding: 40px 0 10px 80px;
         }
         /* Contact */
-        
-        .form-group {
+        /* .form-group {
             align-items: center;
-        }
+        } */
         
         #contact {
-            margin: 60px 0;
-            padding: 40px 80px;
+            margin: 40px 0;
+            padding: 40px 200px;
             background: #99999d;
             color: #fff;
             font-size: .9rem;
@@ -139,7 +195,7 @@
         }
         
         #contact input {
-            display: flex;
+            display: inline-block;
             flex-direction: column;
             width: 100%;
             margin: 5px 0 0 0;
@@ -149,7 +205,7 @@
         }
         
         #contact label {
-            display: block;
+            /* display: inline-block; */
             margin-bottom: 5px;
             outline-color: #e6978a;
         }
@@ -159,21 +215,21 @@
         }
         
         #contact textarea {
-            height: 150px;
+            height: 100px;
             width: 100%;
             outline-color: #e6978a;
         }
         
         #contact .btn {
-            /* border-radius: 5px; */
             text-align: center;
-            color: #fff;
+            background: #e6978a;
+            /* color: rgb(146, 144, 144); */
             width: 100%;
             margin: 5px 0 0 0;
             padding: 5px;
-            outline: none;
-            background: #e6978a;
-            outline: none;
+            /* outline: none; */
+            /* background: #e6978a; */
+            /* outline: none; */
         }
         /* Footer */
         

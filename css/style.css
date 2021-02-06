@@ -83,6 +83,12 @@
             font-size: .9rem;
         }
         
+        .passion {
+            color: #5b8f9c;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+        
         #about h1 {
             color: #e6978a;
             padding-bottom: 20px;
@@ -91,7 +97,7 @@
         #aboutRow1 {
             float: left;
             justify-content: space-between;
-            margin: 0 20px;
+            /* margin: 0 20px; */
             shape-outside: circle();
         }
         
@@ -232,6 +238,10 @@
         
         #contact h1 {
             padding-top: 5px;
+        }
+        
+        #phone {
+            color: #333;
         }
         /** Footer **/
         

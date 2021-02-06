@@ -76,8 +76,8 @@
         /** About **/
         
         #about {
-            border: 30px #5b8f9c solid;
-            padding: 30px 80px;
+            border: 20px #646470 solid;
+            padding: 30px 40px;
             background: #f4f4f4;
             color: #333;
             font-size: .9rem;
@@ -105,7 +105,7 @@
         
         #knowledge h1 {
             color: #e6978a;
-            padding: 20px 0 0 80px;
+            padding: 20px 0 0 40px;
             background: #fff;
         }
         
@@ -154,9 +154,9 @@
         /** Projects **/
         
         .projectsGallery {
-            padding: 10px 5px 20px 30px;
+            padding: 10px 40px 20px 40px;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
         }
         
@@ -172,7 +172,7 @@
         .projects h1 {
             justify-content: center;
             color: #e6978a;
-            padding: 40px 0 0 80px;
+            padding: 40px 0 0 40px;
         }
         /** Contact **/
         

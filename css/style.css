@@ -193,6 +193,7 @@
             align-items: center;
             margin-left: 40px;
             padding: 25px;
+            border: #5b8f9c 10px solid;
         }
         
         #contact form {

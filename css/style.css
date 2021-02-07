@@ -67,7 +67,7 @@
         }
         
         #navbar a:hover {
-            color: #a35a4e;
+            color: #e6978a;
         }
         
         #navbar ul {
@@ -116,7 +116,7 @@
         
         #knowledge h1 {
             color: #e6978a;
-            padding: 20px 0 0 40px;
+            padding: 40px 0 0 40px;
             background: #fff;
         }
         
@@ -164,11 +164,30 @@
         }
         /** Projects **/
         
-        .projectsGallery {
-            padding: 10px 40px 20px 40px;
+        .projectsGallery,
+        .projectBtn {
+            padding: 10px 40px 0px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }
+        
+        .projectBtn {
+            margin: 0 100px;
+            justify-content: space-between;
+            text-align: center;
+            line-height: 1.5;
+        }
+        
+        .btnP1,
+        .btnP2,
+        .btnP3 {
+            background: #67a5b4;
+            color: #fff;
+            width: 180px;
+            border-radius: 5px;
+            padding: 5px 5px;
+            margin-top: 0;
         }
         
         .projects img {

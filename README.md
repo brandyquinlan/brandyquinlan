@@ -1,5 +1,5 @@
 # Portfolio
-mailto:brandyquinlan@gmail.com
+brandyquinlan@gmail.com
 
 ## URL and Repo Locations
 
